@@ -32,7 +32,7 @@ tensor(1.5494, dtype=torch.float64)
 The loss function is based on the idea that the **structure** of the image is more important than the **pixel values**. So, we use some of the classical image processing techniques to leverage this idea. The loss function contains 2 main parts `General_loss` and `Specific_loss` which will be explained further:
 
 $$\
-Loss = (1 - \alpha) \times General_loss + \alpha \times Specific_loss
+Loss = (1 - \alpha) \times GeneralLoss + \alpha \times SpecificLoss
 $$
 
 ### General Loss
